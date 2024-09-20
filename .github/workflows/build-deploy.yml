@@ -3,7 +3,7 @@ name: Build and Test Code
 on: [push, pull_request]
 
 jobs:
-  job1:
+  build:
     environment: Testing
     env:
       DATABASE_HOSTNAME: ${{secrets.DATABASE_HOSTNAME}}
